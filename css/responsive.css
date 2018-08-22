@@ -1,0 +1,693 @@
+@media screen and (min-width: 1240px) {
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1239px) {
+  .topheader {
+    display: block;
+  }
+
+  .topheader-image img {
+    width: 22px;
+  }
+
+  .topheader-link a {
+    font-size: 10px;
+    margin-left: 8px;
+  }
+
+  .topheader-item {
+    margin-left: 20px;
+  }
+
+  .topheader-item1 {
+    width: 180px;
+  }
+
+  .topheader-item2 {
+    width: 210px;
+  }
+
+  .topheader-item3 {
+    width: 190px;
+  }
+
+  .topheader-item4 {
+    width: 160px;
+  }
+
+  .topheader-item5 {
+    width: 190px;
+    float: right !important;
+  }
+
+  .downheader {
+    width: 90%;
+    height: 90px;
+    display: flex;
+  }
+
+  .logoContainer {
+    width: 200px;
+    height: 50px;
+  }
+
+  .logo .countryFlag img {
+    width: 15px;
+    height: 10px;
+  }
+
+  .logo p {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 8px;
+  }
+
+  .searchBar {
+    width: 300px;
+    height: 50px;
+    margin: 15px 0 2px 1px;
+    padding: 15px 15px;
+  }
+
+  .searchBar .searchBox {
+    height: 20px;
+  }
+
+  .searchBox .search {
+    width: 85%;
+    height: 90%;
+    float: left;
+  }
+
+  .searchBox .searchBtn {
+    position: relative;
+    width: 10%;
+    height: 72%;
+    float: left;
+    padding-top: 3px;
+    padding-left: 3px;
+  }
+
+  .searchBtn img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .rightSide {
+    width: 470px;
+    float: right;
+    margin: 5px 2px;
+  }
+
+  .subscribtion ul li {
+    font-size: 10px;
+  }
+
+  .shoppingInfo {
+    width: 19%;
+  }
+
+  .shoppingInfo .shoppingItem {
+    font-size: 9px;
+  }
+
+  .nav-rightSide {
+    width: 90px;
+  }
+
+  .modalOverview {
+    width: 100%;
+    height: 100%;
+  }
+
+  .product-big-image img {
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .product-big-desc {
+    width: 50%;
+    height: 70%;
+    margin-top: 8px;
+  }
+
+  .downFooter {
+    position: relative;
+    max-width: 1200px;
+    width: 90%;
+    margin: 15% auto -5% auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .topheader {
+    display: none;
+  }
+
+  .downheader {
+    width: 100%;
+    height: 90px;
+    display: flex;
+  }
+
+  .logoContainer {
+    margin-top: 5px;
+    width: 200px;
+    height: 90px;
+  }
+
+  .logo img {
+    position: relative;
+    float: left;
+    margin-top: 15px;
+  }
+
+  .logo .countryFlag img {
+    width: 15px;
+    height: 10px;
+    margin-top: 5px;
+  }
+
+  .logo p {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 8px;
+  }
+
+  .searchBar {
+    width: 250px;
+    height: 90%;
+    margin: 2px 0 2px 2px;
+    padding: 25px 15px;
+  }
+
+  .searchBox .search {
+    width: 75%;
+    margin-left: 10px;
+    float: left;
+  }
+
+  .searchBox .searchBtn {
+    float: left;
+    width: 10%;
+    height: 80%;
+  }
+
+  .rightSide {
+    width: 300px;
+    float: right;
+    margin: 5px 2px;
+  }
+
+  .subscribtion {
+    width: 0%;
+    height: 85%;
+    border: none;
+  }
+  .subscribtion ul li {
+    display: none;
+  }
+
+  .shoppingInfo {
+    width: 30%;
+    height: 85%;
+    padding-top: 5px;
+    float: left;
+  }
+
+  .navbar {
+    display: flex;
+    margin-top: 9%;
+    height: 50px;
+    width: 100%;
+  }
+
+  .menu {
+    width: 100%;
+    padding: 10px 18px;
+    border-radius: 3px;
+    background: #0051ba;
+  }
+
+  .wrap {
+    width: 90%;
+  }
+
+  .menu {
+    position: relative;
+    display: inline-block;
+  }
+
+  .menu ul.active {
+    display: none;
+  }
+
+  .menu ul {
+    width: 100%;
+    position: absolute;
+    top: 120%;
+    left: 0px;
+    padding: 10px 18px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    background: #0051ba;
+  }
+
+  .menu ul:after {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 0%;
+    left: 22px;
+    content: "";
+    transform: translate(0%, -100%);
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #303030;
+  }
+
+  .menu li {
+    margin: 5px 0px 5px 0px;
+    float: none;
+    display: block;
+  }
+
+  .menu a {
+    display: block;
+    margin: -5px;
+  }
+
+  .toggle-nav {
+    padding: 5px;
+    display: inline-block;
+    border-radius: 3px;
+    background: #0051ba;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    transition: color linear 0.15s;
+    height: 100%;
+  }
+
+  .toggle-nav:hover,
+  .toggle-nav.active {
+    text-decoration: none;
+    color: #0051ba;
+  }
+
+  .text {
+    width: 97%;
+    top: 87%;
+  }
+
+  .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 3px;
+  }
+
+  .sampleProducts .items {
+    height: 250px;
+  }
+
+  .modalOverview {
+    width: 100%;
+    height: 100%;
+  }
+
+  .product-big-image img {
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .product-big-desc {
+    width: 50%;
+    height: 70%;
+    margin-top: 8px;
+  }
+
+  .downFooter {
+    position: relative;
+    max-width: 1200px;
+    width: 90%;
+    margin: 15% auto -5% auto;
+  }
+
+  footer {
+    max-width: 900px;
+    margin: -10% auto;
+    width: 90%;
+    height: 80%;
+  }
+
+  .footerContent h3 {
+    font-size: 12px;
+  }
+
+  .footerContent ul li {
+    margin: 6px;
+  }
+
+  .footerContent ul li a {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 460px) and (max-width: 767px) {
+  .topheader {
+    display: none;
+  }
+
+  .logoContainer {
+    margin-top: 5px;
+    width: 100px;
+    height: 90px;
+    position: relative;
+    float: left;
+  }
+
+  .logo {
+    width: 90%;
+    height: 60%;
+  }
+
+  .logo img {
+    position: relative;
+    float: left;
+    margin-top: 5px;
+  }
+
+  .logo p {
+    margin-top: 7px;
+    float: left;
+    font-size: 6px;
+  }
+
+  .searchBar {
+    width: 110px;
+    height: 80%;
+    padding-left: 10px;
+  }
+
+  .searchBox .search {
+    width: 70%;
+    height: 25px;
+    float: left;
+  }
+
+  .searchBox .searchBtn {
+    float: left;
+    width: 6%;
+    height: 50%;
+  }
+
+  .subscribtion {
+    width: 0%;
+    height: 85%;
+    border: none;
+  }
+  .subscribtion ul li {
+    display: none;
+  }
+
+  .shoppingInfo {
+    width: 20%;
+    height: 65%;
+    padding-top: 5px;
+    float: left;
+  }
+
+  .navbar {
+    display: flex;
+    margin-top: 9%;
+    height: 50px;
+  }
+
+  .menu {
+    width: 85%;
+    padding: 15px 18px;
+  }
+
+  .wrap {
+    width: 90%;
+  }
+
+  .menu {
+    position: relative;
+    display: inline-block;
+  }
+
+  .menu ul.active {
+    display: none;
+  }
+
+  .menu ul {
+    width: 100%;
+    position: absolute;
+    top: 120%;
+    left: 0px;
+    padding: 5px 18px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    background: #0051ba;
+  }
+
+  .menu ul:after {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 0%;
+    left: 22px;
+    content: "";
+    transform: translate(0%, -100%);
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #303030;
+  }
+
+  .menu li {
+    margin: 5px 0px 5px 0px;
+    float: none;
+    display: block;
+  }
+
+  .menu a {
+    display: block;
+    margin: -5px;
+  }
+
+  .toggle-nav {
+    padding: 0px;
+    display: inline-block;
+    border-radius: 3px;
+    background: #0051ba;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+    color: #777;
+    font-size: 25px;
+    transition: color linear 0.15s;
+  }
+
+  .toggle-nav:hover,
+  .toggle-nav.active {
+    text-decoration: none;
+    color: #66a992;
+  }
+
+  .text {
+    font-size: 13px;
+    width: 95.5%;
+    top: 82%;
+  }
+
+  .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 3px;
+  }
+
+  .sampleProducts .items {
+    height: 150px;
+  }
+
+  .items img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .modalOverview {
+    width: 100%;
+    height: 100%;
+  }
+
+  .product-big-image img {
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .product-big-desc {
+    width: 35%;
+    height: 80%;
+    margin-top: 8px;
+  }
+
+  .buyButton {
+    width: 150px;
+    height: 50px;
+  }
+
+  .downFooter {
+    width: 95%;
+    margin-top: 30%;
+    margin-bottom: 15%;
+    border: 2px solid #407ab1;
+  }
+
+  footer {
+    max-width: 900px;
+    margin: -10% auto;
+    width: 90%;
+    height: 80%;
+  }
+
+  .footerContent h3 {
+    font-size: 11px;
+  }
+
+  .footerContent ul li {
+    margin: 3px;
+    line-height: 1;
+  }
+
+  .footerContent ul li a {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 459px) {
+  .topheader {
+    display: none;
+  }
+
+  .subscribtion {
+    width: 0%;
+    height: 85%;
+    border: none;
+  }
+  .subscribtion ul li {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    margin-top: 9%;
+    height: 50px;
+  }
+
+  .menu {
+    width: 100%;
+    padding: 10px 18px;
+    border-radius: 3px;
+    background: #0051ba;
+  }
+
+  .wrap {
+    width: 90%;
+  }
+
+  .menu {
+    position: relative;
+    display: inline-block;
+  }
+
+  .menu ul.active {
+    display: none;
+  }
+
+  .menu ul {
+    width: 100%;
+    position: absolute;
+    top: 120%;
+    left: 0px;
+    padding: 10px 18px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    background: #0051ba;
+  }
+
+  .menu ul:after {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 0%;
+    left: 22px;
+    content: "";
+    transform: translate(0%, -100%);
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #303030;
+  }
+
+  .menu li {
+    margin: 5px 0px 5px 0px;
+    float: none;
+    display: block;
+  }
+
+  .menu a {
+    display: block;
+    margin: -5px;
+  }
+
+  .toggle-nav {
+    padding: 0;
+    display: inline-block;
+    border-radius: 3px;
+    background: #0051ba;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+    color: #777;
+    font-size: 25px;
+    transition: color linear 0.15s;
+  }
+
+  .toggle-nav:hover,
+  .toggle-nav.active {
+    text-decoration: none;
+    color: #66a992;
+  }
+
+  .text {
+    font-size: 11px;
+    width: 94.5%;
+    top: 78.5%;
+  }
+
+  .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 3px;
+  }
+
+  .downFooter {
+    margin: 35% auto -7% auto;
+  }
+
+  footer {
+    max-width: 600px;
+    margin: 20% auto;
+    width: 90%;
+    height: 80%;
+  }
+
+  .footerContent h3 {
+    font-size: 11px;
+  }
+
+  .footerContent ul li {
+    margin: 3px;
+    line-height: 1;
+  }
+
+  .footerContent ul li a {
+    font-size: 6px;
+  }
+}
